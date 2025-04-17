@@ -83,7 +83,15 @@ pip install ultralytics numpy matplotlib requests Pillow
    cd <nome-pasta>
    ```
 
-2. **Instale as dependências:**
+2. **Descompacte o dataset:**
+
+   Antes de executar o projeto, é necessário descompactar o arquivo `dataset.zip` na pasta raiz do projeto. Isso disponibilizará a estrutura completa de dados necessária para treinamento e teste.
+
+   ```bash
+   unzip dataset.zip
+   ```
+
+3. **Instale as dependências:**
 
    ```bash
    pip install -r requirements.txt
@@ -91,27 +99,27 @@ pip install ultralytics numpy matplotlib requests Pillow
 
    Ou instale manualmente conforme seção de dependências acima.
 
-3. **Preparação do ambiente:**
+4. **Preparação do ambiente:**
    - Certifique-se que o dataset está disponível na pasta `dataset/`
    - Coloque os vídeos para análise na pasta `videos/`
    - Garanta que o modelo pré-treinado YOLOv11 (`yolo11n.pt`) está no diretório raiz
 
-4. **Execute o notebook:**
+5. **Execute o notebook:**
    - Abra o notebook `modelv11.ipynb` em um ambiente Jupyter
    - Execute as células sequencialmente
 
-5. **Para treinar o modelo:**
+6. **Para treinar o modelo:**
    - Execute as células relacionadas ao treinamento para personalizar o modelo
    - O modelo treinado será salvo em `runs/train/yolov11_knife_detection/weights/best.pt`
 
-6. **Para testar em imagens e vídeos:**
+7. **Para testar em imagens e vídeos:**
    - Execute as células de teste com imagens para visualizar as detecções
    - Execute as células de processamento de vídeo para análise de vídeos
 
-7. **Para gerar relatórios:**
+8. **Para gerar relatórios:**
    - Execute a célula final para gerar os relatórios `summary_test_images.txt` e `summary_videos.txt`
 
-8. **Sistema de alertas:**
+9. **Sistema de alertas:**
    - Configure o e-mail de destino e a URL do webhook na célula apropriada
    - Descomente a linha de envio de alerta para ativar o sistema
 
