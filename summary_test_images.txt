@@ -1,1 +1,1 @@
-Das 385 imagens testadas, foram encontradas facas em 374 imagens, totalizando 429 facas detectadas. Em 11 imagens, nenhuma faca foi encontrada.
+Das 385 imagens testadas, foram encontradas facas em 375 imagens, totalizando 425 facas detectadas. Em 10 imagens, nenhuma faca foi encontrada.
