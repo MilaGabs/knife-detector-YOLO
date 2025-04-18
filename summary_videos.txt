@@ -1,12 +1,12 @@
 Video 1: video.mp4
 - Número de frames analisados: 1264
-- Número de frames onde facas foram detectadas: 550
-- Número de frames sem facas: 714
-- Número total de facas detectadas: 975
+- Número de frames onde facas foram detectadas: 345
+- Número de frames sem facas: 919
+- Número total de facas detectadas: 399
 
 Video 2: video2.mp4
 - Número de frames analisados: 39
-- Número de frames onde facas foram detectadas: 12
-- Número de frames sem facas: 27
-- Número total de facas detectadas: 17
+- Número de frames onde facas foram detectadas: 7
+- Número de frames sem facas: 32
+- Número total de facas detectadas: 7
 
